@@ -1,0 +1,672 @@
+@media (max-width: 1149px) {
+  .main-nav {
+    width: 348px;
+  }
+
+  .main-nav__logo {
+    position: static;
+
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+  }
+
+  .main-nav__logo-image {
+    width: 110px;
+    height: 50px;
+  }
+
+  .main-nav a {
+    letter-spacing: 0.03em;
+  }
+
+  .main-nav__list {
+    position: absolute;
+    bottom: -75px;
+    left: 50px;
+    z-index: 1;
+  }
+
+  .main-nav__list a {
+    font-size: 15px;
+  }
+
+  .main-nav__link--catalog {
+    padding: 32px 5px 32px 0;
+    border: none;
+  }
+
+  .intro__nav .intro__item:nth-child(1),
+  .intro__nav .intro__item:nth-child(2) {
+    display: none;
+  }
+
+  .intro {
+    margin-bottom: 50px;
+  }
+
+  .intro__title {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .product-week {
+    margin-bottom: 50px;
+  }
+
+  .product-week__top {
+    width: 668px;
+    margin-top: 0;
+    margin-bottom: 49px;
+  }
+
+  .product-week__title {
+    order: 0;
+
+    margin-right: auto;
+
+    font-size: 43px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .product-week__top div {
+    width: 130px;
+  }
+
+  .product-week__link {
+    top: 21%;
+
+    width: 333px;
+    height: 404px;
+
+    background-image: url(../img/triple-set-tablet@1x.jpg);
+  }
+
+  .product-week__description {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+
+  .product-week__description p {
+    margin-bottom: 38px;
+  }
+
+  .product-week__details {
+    margin-bottom: 55px;
+  }
+
+  .product-week__details td {
+    padding: 8px 0 10px 0;
+  }
+
+  .features {
+    margin-bottom: 28px;
+  }
+
+  .features::before {
+    height: 17px;
+  }
+
+  .features__title {
+    padding: 53px 0 47px 0;
+
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+  }
+
+  .features__list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .features__item {
+    padding-top: 55px;
+    padding-bottom: 45px;
+  }
+
+  .reviews {
+    background-image: url("../img/review@1x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .reviews__title {
+    margin: 0;
+    margin-bottom: 47px;
+
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .reviews__wrapper {
+    padding: 80px 0 50px 0;
+    background: none;
+  }
+
+  .reviews__text {
+    width: 645px;
+    margin-bottom: 59px;
+  }
+
+  .reviews__name {
+    margin-bottom: 4px;
+
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+  }
+
+  .reviews__email {
+    font-size: 17px;
+  }
+
+  .reviews__slider {
+    bottom: 67px;
+  }
+
+  .contacts {
+    margin-bottom: 56px;
+  }
+
+  .contacts::before {
+    height: 17px;
+  }
+
+  .contacts .container {
+    padding: 0;
+  }
+
+  .contacts__wrapper {
+    padding: 0;
+  }
+
+  .contacts__title {
+    margin-top: 60px;
+    margin-bottom: 47px;
+    padding-left: 50px;
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .contacts__title::before {
+    content: " ";
+    position: absolute;
+    top: -17px;
+    left: 670px;
+  }
+
+  .contacts__address {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-bottom: 27px;
+  }
+
+  .contacts__detalis {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .contacts__map {
+    position: static;
+    margin-bottom: 50px;
+  }
+
+  .contacts__picture {
+    width: 100%;
+  }
+
+  .contacts__detalis tbody {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contacts__detalis tr {
+    width: 50%;
+  }
+
+  .contacts__post  {
+    padding: 3px 23px 27px 0; /**/
+  }
+
+  .contacts__btn {
+    position: static;
+
+    margin: 0 auto;
+  }
+
+  .page-footer__wrapper {
+    padding: 49px 0 55px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 320px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    box-sizing: border-box;
+  }
+
+  .page-header .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main-nav {
+    display: block;
+    width: 100%;
+  }
+
+  .main-nav__user-list {
+    display: block;
+  }
+
+  .main-nav__logo {
+    padding: 0;
+    padding: 20px 0 20px 0px;
+  }
+
+  .main-nav a {
+    width: 100%;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 27px 0 27px 75px;
+
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .main-nav__logo-image {
+    width: 88px;
+    height: 38px;
+
+    margin: 0 auto;
+  }
+
+  .main-nav__list {
+    position: static;
+
+    flex-direction: column;
+  }
+
+  .main-nav__link--search {
+    display: block;
+    padding: 0;
+    margin: 0;
+
+    border: none;
+  }
+
+  .main-nav__link--search span {
+    display: block;
+  }
+
+  .main-nav__link--bascet {
+    position: relative;
+    padding: 0;
+  }
+
+  .main-nav__link--catalog {
+    border-right: 0;
+    padding: 0;
+  }
+
+  .intro {
+    background-image: url("../img/hero-mobile@1x.jpg");
+    background-position: center -15px;
+
+    margin-bottom: 0;
+  }
+
+  .intro::after {
+    display: none;
+  }
+
+  .intro .container {
+    min-height: 488px;
+    padding: 0;
+  }
+
+  .intro__nav {
+    display: none;
+  }
+
+  .intro__title {
+    font-size: 27px;
+    line-height: 30px;
+
+    margin-top: 73px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .intro__category {
+    flex-direction: column;
+  }
+
+  .intro__category .intro__item {
+    width: 100%;
+    background-color: #63d1bb;
+  }
+
+  .intro__category .intro__link {
+    padding: 23px 35px 18px 30px;
+  }
+
+  .intro__link--interior span,
+  .intro__link--toys span {
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  .product-week {
+    margin-bottom: 35px;
+  }
+
+  .product-week__top {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .product-week__title {
+    margin-bottom: 3px;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .product-week__top div {
+    width: 150px;
+
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .product-week__top div br {
+    display: none;
+  }
+
+  .product-week__link {
+    position: static;
+
+    width: 100%;
+    height: 320px;
+    margin-bottom: 20px;
+
+    background-image: url(../img/triple-set-mobile@1x.jpg);
+  }
+
+  .product-week__description {
+    width: 100%;
+    padding: 0;
+  }
+
+  .product-week__description p {
+    margin: 0;
+    margin-bottom: 18px;
+
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+  }
+
+  .product-week__details {
+    margin-bottom: 29px;
+  }
+
+  .product-week__details td {
+    padding: 8px 25px 10px 0;
+  }
+
+  .product-week__order span {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+
+  .product-week__btn {
+    width: 260px;
+  }
+
+  .features {
+    margin-bottom: 30px;
+  }
+
+  .features::before {
+    height: 7px;
+  }
+
+  .features__title {
+    padding: 30px 0 25px 0;
+
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+  }
+
+  .features__list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .features__item {
+    width: 100%;
+
+    font-size: 17px;
+    line-height: 20px;
+
+    margin-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 13px;
+  }
+
+  .features__item--materials {
+    order:-8;
+  }
+
+  .features__item--style {
+    order:-7;
+  }
+
+  .features__item--likes {
+    order:-6;
+  }
+
+  .features__item--manually {
+    order:-5;
+  }
+
+  .features__item--domestic {
+    order:-4;
+  }
+
+  .reviews {
+    margin-bottom: 45px;
+
+    background-image: none;
+  }
+
+  .features__text {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .reviews__wrapper {
+    padding: 0;
+  }
+
+  .reviews__title {
+    margin: 0;
+    margin-bottom: 27px;
+
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+  }
+
+  .reviews__text {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 57px;
+      font-size: 14px;
+      line-height: 30px;
+      letter-spacing: 0;
+    }
+
+  .reviews__btn {
+    position: static;
+  }
+
+  .reviews__slider {
+    position: static;
+  }
+
+  .reviews__author {
+    margin-bottom: 30px;
+  }
+
+  .reviews__name {
+    margin-bottom: 2px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+  }
+
+  .reviews__email {
+    font-size: 14px;
+  }
+
+  .reviews__slider {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .reviews__slider-btn {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 37px;
+
+    border: 1px solid #ececec;
+  }
+
+  .reviews__btn {
+    width: 100%;
+  }
+
+  .contacts {
+    margin-bottom: 38px;
+  }
+
+  .contacts::before {
+    display: none;
+  }
+
+  .contacts .container::before {
+    content: "";
+    width: 100%;
+    height: 7px;
+    display: block;
+
+    background-image: url(../img/bg-zigzag-line.svg);
+    background-size: contain;
+    background-repeat: repeat-x;
+  }
+
+  .contacts__title {
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 23px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .contacts__title::before {
+    display: none;
+  }
+
+  .contacts__address {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contacts__detalis {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .contacts__detalis tbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contacts__detalis tr {
+    width: 100%;
+  }
+
+  .contacts td {
+    padding: 3px 10px 27px 0;
+    vertical-align: top;
+  }
+
+  .contacts td:first-child {
+    padding-right: 25px;
+  }
+
+  .contacts__map {
+    margin-bottom: 30px;
+  }
+
+  .contacts__btn {
+    width: 260px;
+    letter-spacing: 0.06em;
+  }
+
+  .page-footer__wrapper {
+    flex-direction: column;
+
+    padding: 0;
+  }
+
+  .page-footer__logo-image {
+    display: none;
+  }
+
+  .social__list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .page-footer__social {
+    padding: 29px 55px 22px 55px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .page-footer__copyright {
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 12px 40px 22px 40px;
+  }
+
+  .copyright__link {
+    margin-top: 12px;
+    margin-right: 25px;
+
+    font-size: 19px;
+    line-height: 18px;
+    letter-spacing: -0.06em;
+  }
+}
