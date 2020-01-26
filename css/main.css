@@ -163,7 +163,6 @@ ul {
   background-color: #f9f9f9;
 }
 .intro::after {
-  /**/
   content: "";
   position: absolute;
   height: 34px;
